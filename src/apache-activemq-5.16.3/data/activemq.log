@@ -1,0 +1,330 @@
+2025-02-20 22:41:34,729 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@3db6d700: startup date [Thu Feb 20 22:41:34 GMT+03:30 2025]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2025-02-20 22:41:35,361 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\asus\Desktop\JavaSchool1\AcctiveMQ-with-javaCore\src\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-02-20 22:41:35,442 | INFO  | PListStore:[C:\Users\asus\Desktop\JavaSchool1\AcctiveMQ-with-javaCore\src\apache-activemq-5.16.3\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2025-02-20 22:41:35,583 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:DESKTOP-FERP0L2-7787-1740078695449-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-02-20 22:41:35,597 | INFO  | Listening for connections at: tcp://DESKTOP-FERP0L2:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2025-02-20 22:41:35,597 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-02-20 22:41:35,601 | INFO  | Listening for connections at: amqp://DESKTOP-FERP0L2:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2025-02-20 22:41:35,601 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-02-20 22:41:35,604 | INFO  | Listening for connections at: stomp://DESKTOP-FERP0L2:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2025-02-20 22:41:35,605 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-02-20 22:41:35,609 | INFO  | Listening for connections at: mqtt://DESKTOP-FERP0L2:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2025-02-20 22:41:35,610 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-02-20 22:41:35,616 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2025-02-20 22:41:35,657 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2025-02-20 22:41:35,753 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@246f245d{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2025-02-20 22:41:35,812 | INFO  | Listening for connections at ws://DESKTOP-FERP0L2:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2025-02-20 22:41:35,813 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-02-20 22:41:35,814 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:DESKTOP-FERP0L2-7787-1740078695449-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-02-20 22:41:35,815 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-02-20 22:41:35,816 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\asus\Desktop\JavaSchool1\AcctiveMQ-with-javaCore\src\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb only has 67841 mb of usable space. - resetting to maximum available disk space: 67841 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-02-20 22:41:36,382 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2025-02-20 22:41:36,382 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2025-02-20 22:41:36,478 | WARN  | Failed startup of context o.e.j.w.WebAppContext@1998d35b{ActiveMQ Console,/admin,file:///C:/Users/asus/Desktop/JavaSchool1/AcctiveMQ-with-javaCore/src/apache-activemq-5.16.3/webapps/admin/,UNAVAILABLE} | org.eclipse.jetty.webapp.WebAppContext | WrapperSimpleAppMain
+java.lang.NoClassDefFoundError: org/apache/activemq/web/filter/ApplicationContextFilter$1
+	at org.apache.activemq.web.filter.ApplicationContextFilter.createApplicationContextWrapper(ApplicationContextFilter.java:139)
+	at org.apache.activemq.web.filter.ApplicationContextFilter.init(ApplicationContextFilter.java:78)
+	at org.eclipse.jetty.servlet.FilterHolder.initialize(FilterHolder.java:140)
+	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:731)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:755)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:910)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+	at org.eclipse.jetty.security.SecurityHandler.doStart(SecurityHandler.java:417)
+	at org.eclipse.jetty.security.ConstraintSecurityHandler.doStart(ConstraintSecurityHandler.java:417)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+	at org.eclipse.jetty.server.Server.start(Server.java:423)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:387)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:265)
+	at org.springframework.beans.factory.config.MethodInvokingBean.invokeWithTargetException(MethodInvokingBean.java:119)
+	at org.springframework.beans.factory.config.MethodInvokingFactoryBean.afterPropertiesSet(MethodInvokingFactoryBean.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1677)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1615)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:737)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64)
+	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52)
+	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104)
+	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104)
+	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67)
+	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71)
+	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54)
+	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87)
+	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154)
+	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.activemq.console.Main.runTaskClass(Main.java:262)
+	at org.apache.activemq.console.Main.main(Main.java:115)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ClassNotFoundException: org.apache.activemq.web.filter.ApplicationContextFilter$1
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:587)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:538)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 77 more
+2025-02-20 23:43:14,734 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@2bc0ab2b: startup date [Thu Feb 20 23:43:14 GMT+03:30 2025]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2025-02-20 23:43:15,324 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\asus\Desktop\JavaSchool1\AcctiveMQ-with-javaCore\src\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-02-20 23:43:15,356 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2025-02-20 23:43:15,358 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2025-02-20 23:43:15,359 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2025-02-20 23:43:15,382 | INFO  | PListStore:[C:\Users\asus\Desktop\JavaSchool1\AcctiveMQ-with-javaCore\src\apache-activemq-5.16.3\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2025-02-20 23:43:15,527 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:DESKTOP-FERP0L2-8174-1740082395389-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-02-20 23:43:15,578 | INFO  | Listening for connections at: tcp://DESKTOP-FERP0L2:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2025-02-20 23:43:15,579 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-02-20 23:43:15,583 | INFO  | Listening for connections at: amqp://DESKTOP-FERP0L2:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2025-02-20 23:43:15,584 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-02-20 23:43:15,588 | INFO  | Listening for connections at: stomp://DESKTOP-FERP0L2:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2025-02-20 23:43:15,589 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-02-20 23:43:15,593 | INFO  | Listening for connections at: mqtt://DESKTOP-FERP0L2:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2025-02-20 23:43:15,593 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-02-20 23:43:15,600 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2025-02-20 23:43:15,664 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2025-02-20 23:43:15,782 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@4f3f94fe{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2025-02-20 23:43:15,843 | INFO  | Listening for connections at ws://DESKTOP-FERP0L2:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2025-02-20 23:43:15,844 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-02-20 23:43:15,844 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:DESKTOP-FERP0L2-8174-1740082395389-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-02-20 23:43:15,845 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-02-20 23:43:15,847 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\asus\Desktop\JavaSchool1\AcctiveMQ-with-javaCore\src\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb only has 67478 mb of usable space. - resetting to maximum available disk space: 67478 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-02-20 23:43:16,480 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2025-02-20 23:43:16,480 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2025-02-20 23:43:16,589 | WARN  | Failed startup of context o.e.j.w.WebAppContext@50543155{ActiveMQ Console,/admin,file:///C:/Users/asus/Desktop/JavaSchool1/AcctiveMQ-with-javaCore/src/apache-activemq-5.16.3/webapps/admin/,UNAVAILABLE} | org.eclipse.jetty.webapp.WebAppContext | WrapperSimpleAppMain
+java.lang.NoClassDefFoundError: org/apache/activemq/web/filter/ApplicationContextFilter$1
+	at org.apache.activemq.web.filter.ApplicationContextFilter.createApplicationContextWrapper(ApplicationContextFilter.java:139)
+	at org.apache.activemq.web.filter.ApplicationContextFilter.init(ApplicationContextFilter.java:78)
+	at org.eclipse.jetty.servlet.FilterHolder.initialize(FilterHolder.java:140)
+	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:731)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:755)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:910)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+	at org.eclipse.jetty.security.SecurityHandler.doStart(SecurityHandler.java:417)
+	at org.eclipse.jetty.security.ConstraintSecurityHandler.doStart(ConstraintSecurityHandler.java:417)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+	at org.eclipse.jetty.server.Server.start(Server.java:423)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:387)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:265)
+	at org.springframework.beans.factory.config.MethodInvokingBean.invokeWithTargetException(MethodInvokingBean.java:119)
+	at org.springframework.beans.factory.config.MethodInvokingFactoryBean.afterPropertiesSet(MethodInvokingFactoryBean.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1677)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1615)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:737)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64)
+	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52)
+	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104)
+	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104)
+	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67)
+	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71)
+	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54)
+	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87)
+	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154)
+	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.activemq.console.Main.runTaskClass(Main.java:262)
+	at org.apache.activemq.console.Main.main(Main.java:115)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ClassNotFoundException: org.apache.activemq.web.filter.ApplicationContextFilter$1
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:587)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:538)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 77 more
+2025-02-21 00:00:15,809 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@3db6d700: startup date [Fri Feb 21 00:00:15 GMT+03:30 2025]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2025-02-21 00:00:16,387 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\asus\Desktop\JavaSchool1\AcctiveMQ-with-javaCore\src\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-02-21 00:00:16,422 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2025-02-21 00:00:16,424 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2025-02-21 00:00:16,426 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2025-02-21 00:00:16,449 | INFO  | PListStore:[C:\Users\asus\Desktop\JavaSchool1\AcctiveMQ-with-javaCore\src\apache-activemq-5.16.3\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2025-02-21 00:00:16,586 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:DESKTOP-FERP0L2-8299-1740083416456-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-02-21 00:00:16,638 | INFO  | Listening for connections at: tcp://DESKTOP-FERP0L2:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2025-02-21 00:00:16,639 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-02-21 00:00:16,642 | INFO  | Listening for connections at: amqp://DESKTOP-FERP0L2:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2025-02-21 00:00:16,643 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-02-21 00:00:16,647 | INFO  | Listening for connections at: stomp://DESKTOP-FERP0L2:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2025-02-21 00:00:16,648 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-02-21 00:00:16,651 | INFO  | Listening for connections at: mqtt://DESKTOP-FERP0L2:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2025-02-21 00:00:16,652 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-02-21 00:00:16,658 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2025-02-21 00:00:16,705 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2025-02-21 00:00:16,802 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@29730436{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2025-02-21 00:00:16,855 | INFO  | Listening for connections at ws://DESKTOP-FERP0L2:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2025-02-21 00:00:16,855 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2025-02-21 00:00:16,856 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:DESKTOP-FERP0L2-8299-1740083416456-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-02-21 00:00:16,856 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-02-21 00:00:16,858 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\asus\Desktop\JavaSchool1\AcctiveMQ-with-javaCore\src\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb only has 67468 mb of usable space. - resetting to maximum available disk space: 67468 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2025-02-21 00:00:17,393 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2025-02-21 00:00:17,395 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2025-02-21 00:00:17,490 | WARN  | Failed startup of context o.e.j.w.WebAppContext@11da9b4e{ActiveMQ Console,/admin,file:///C:/Users/asus/Desktop/JavaSchool1/AcctiveMQ-with-javaCore/src/apache-activemq-5.16.3/webapps/admin/,UNAVAILABLE} | org.eclipse.jetty.webapp.WebAppContext | WrapperSimpleAppMain
+java.lang.NoClassDefFoundError: org/apache/activemq/web/filter/ApplicationContextFilter$1
+	at org.apache.activemq.web.filter.ApplicationContextFilter.createApplicationContextWrapper(ApplicationContextFilter.java:139)
+	at org.apache.activemq.web.filter.ApplicationContextFilter.init(ApplicationContextFilter.java:78)
+	at org.eclipse.jetty.servlet.FilterHolder.initialize(FilterHolder.java:140)
+	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:731)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:755)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:910)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+	at org.eclipse.jetty.security.SecurityHandler.doStart(SecurityHandler.java:417)
+	at org.eclipse.jetty.security.ConstraintSecurityHandler.doStart(ConstraintSecurityHandler.java:417)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+	at org.eclipse.jetty.server.Server.start(Server.java:423)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:387)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:265)
+	at org.springframework.beans.factory.config.MethodInvokingBean.invokeWithTargetException(MethodInvokingBean.java:119)
+	at org.springframework.beans.factory.config.MethodInvokingFactoryBean.afterPropertiesSet(MethodInvokingFactoryBean.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1677)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1615)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:737)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64)
+	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52)
+	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104)
+	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104)
+	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67)
+	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71)
+	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54)
+	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87)
+	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154)
+	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.activemq.console.Main.runTaskClass(Main.java:262)
+	at org.apache.activemq.console.Main.main(Main.java:115)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ClassNotFoundException: org.apache.activemq.web.filter.ApplicationContextFilter$1
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:587)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:538)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 77 more

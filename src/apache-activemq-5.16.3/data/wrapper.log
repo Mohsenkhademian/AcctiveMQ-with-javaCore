@@ -1,0 +1,375 @@
+STATUS | wrapper  | 2025/02/20 22:41:33 | --> Wrapper Started as Console
+STATUS | wrapper  | 2025/02/20 22:41:34 | Launching a JVM...
+INFO   | jvm 1    | 2025/02/20 22:41:34 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2025/02/20 22:41:34 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2025/02/20 22:41:34 | 
+INFO   | jvm 1    | 2025/02/20 22:41:34 | Java Runtime: Oracle Corporation 17.0.4 C:\Program Files\Java\jdk-17.0.4
+INFO   | jvm 1    | 2025/02/20 22:41:34 |   Heap sizes: current=258048k  free=248832k  max=1048576k
+INFO   | jvm 1    | 2025/02/20 22:41:34 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=h8XK8BXfaLTvfMCt -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=26812 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2025/02/20 22:41:34 | Extensions classpath:
+INFO   | jvm 1    | 2025/02/20 22:41:34 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2025/02/20 22:41:34 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2025/02/20 22:41:34 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2025/02/20 22:41:34 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2025/02/20 22:41:34 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2025/02/20 22:41:34 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2025/02/20 22:41:34 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@3db6d700: startup date [Thu Feb 20 22:41:34 GMT+03:30 2025]; root of context hierarchy
+INFO   | jvm 1    | 2025/02/20 22:41:35 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\asus\Desktop\JavaSchool1\AcctiveMQ-with-javaCore\src\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2025/02/20 22:41:35 |  INFO | PListStore:[C:\Users\asus\Desktop\JavaSchool1\AcctiveMQ-with-javaCore\src\apache-activemq-5.16.3\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2025/02/20 22:41:35 |  INFO | Apache ActiveMQ 5.16.3 (localhost, ID:DESKTOP-FERP0L2-7787-1740078695449-0:1) is starting
+INFO   | jvm 1    | 2025/02/20 22:41:35 |  INFO | Listening for connections at: tcp://DESKTOP-FERP0L2:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2025/02/20 22:41:35 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2025/02/20 22:41:35 |  INFO | Listening for connections at: amqp://DESKTOP-FERP0L2:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2025/02/20 22:41:35 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2025/02/20 22:41:35 |  INFO | Listening for connections at: stomp://DESKTOP-FERP0L2:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2025/02/20 22:41:35 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2025/02/20 22:41:35 |  INFO | Listening for connections at: mqtt://DESKTOP-FERP0L2:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2025/02/20 22:41:35 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2025/02/20 22:41:35 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2025/02/20 22:41:35 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2025/02/20 22:41:35 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@246f245d{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2025/02/20 22:41:35 |  INFO | Listening for connections at ws://DESKTOP-FERP0L2:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2025/02/20 22:41:35 |  INFO | Connector ws started
+INFO   | jvm 1    | 2025/02/20 22:41:35 |  INFO | Apache ActiveMQ 5.16.3 (localhost, ID:DESKTOP-FERP0L2-7787-1740078695449-0:1) started
+INFO   | jvm 1    | 2025/02/20 22:41:35 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2025/02/20 22:41:35 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\asus\Desktop\JavaSchool1\AcctiveMQ-with-javaCore\src\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb only has 67841 mb of usable space. - resetting to maximum available disk space: 67841 mb
+INFO   | jvm 1    | 2025/02/20 22:41:36 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2025/02/20 22:41:36 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 1    | 2025/02/20 22:41:36 |  WARN | Failed startup of context o.e.j.w.WebAppContext@1998d35b{ActiveMQ Console,/admin,file:///C:/Users/asus/Desktop/JavaSchool1/AcctiveMQ-with-javaCore/src/apache-activemq-5.16.3/webapps/admin/,UNAVAILABLE}
+INFO   | jvm 1    | 2025/02/20 22:41:36 | java.lang.NoClassDefFoundError: org/apache/activemq/web/filter/ApplicationContextFilter$1
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.createApplicationContextWrapper(ApplicationContextFilter.java:139)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.init(ApplicationContextFilter.java:78)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.servlet.FilterHolder.initialize(FilterHolder.java:140)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:731)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:755)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:910)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.security.SecurityHandler.doStart(SecurityHandler.java:417)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.security.ConstraintSecurityHandler.doStart(ConstraintSecurityHandler.java:417)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.server.Server.start(Server.java:423)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.server.Server.doStart(Server.java:387)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:265)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.springframework.beans.factory.config.MethodInvokingBean.invokeWithTargetException(MethodInvokingBean.java:119)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.springframework.beans.factory.config.MethodInvokingFactoryBean.afterPropertiesSet(MethodInvokingFactoryBean.java:106)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1677)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1615)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:737)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.apache.activemq.console.Main.main(Main.java:115)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at java.base/java.lang.Thread.run(Thread.java:833)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | Caused by: java.lang.ClassNotFoundException: org.apache.activemq.web.filter.ApplicationContextFilter$1
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:587)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:538)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+INFO   | jvm 1    | 2025/02/20 22:41:36 | 	... 77 more
+STATUS | wrapper  | 2025/02/20 23:43:13 | --> Wrapper Started as Console
+STATUS | wrapper  | 2025/02/20 23:43:14 | Launching a JVM...
+INFO   | jvm 1    | 2025/02/20 23:43:14 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2025/02/20 23:43:14 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2025/02/20 23:43:14 | 
+INFO   | jvm 1    | 2025/02/20 23:43:14 | Java Runtime: Oracle Corporation 17.0.4 C:\Program Files\Java\jdk-17.0.4
+INFO   | jvm 1    | 2025/02/20 23:43:14 |   Heap sizes: current=258048k  free=248832k  max=1048576k
+INFO   | jvm 1    | 2025/02/20 23:43:14 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=rCF17Dli4sWRCyt7 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=9464 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2025/02/20 23:43:14 | Extensions classpath:
+INFO   | jvm 1    | 2025/02/20 23:43:14 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2025/02/20 23:43:14 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2025/02/20 23:43:14 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2025/02/20 23:43:14 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2025/02/20 23:43:14 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2025/02/20 23:43:14 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2025/02/20 23:43:14 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@2bc0ab2b: startup date [Thu Feb 20 23:43:14 GMT+03:30 2025]; root of context hierarchy
+INFO   | jvm 1    | 2025/02/20 23:43:15 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\asus\Desktop\JavaSchool1\AcctiveMQ-with-javaCore\src\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2025/02/20 23:43:15 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2025/02/20 23:43:15 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2025/02/20 23:43:15 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2025/02/20 23:43:15 |  INFO | PListStore:[C:\Users\asus\Desktop\JavaSchool1\AcctiveMQ-with-javaCore\src\apache-activemq-5.16.3\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2025/02/20 23:43:15 |  INFO | Apache ActiveMQ 5.16.3 (localhost, ID:DESKTOP-FERP0L2-8174-1740082395389-0:1) is starting
+INFO   | jvm 1    | 2025/02/20 23:43:15 |  INFO | Listening for connections at: tcp://DESKTOP-FERP0L2:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2025/02/20 23:43:15 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2025/02/20 23:43:15 |  INFO | Listening for connections at: amqp://DESKTOP-FERP0L2:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2025/02/20 23:43:15 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2025/02/20 23:43:15 |  INFO | Listening for connections at: stomp://DESKTOP-FERP0L2:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2025/02/20 23:43:15 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2025/02/20 23:43:15 |  INFO | Listening for connections at: mqtt://DESKTOP-FERP0L2:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2025/02/20 23:43:15 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2025/02/20 23:43:15 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2025/02/20 23:43:15 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2025/02/20 23:43:15 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@4f3f94fe{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2025/02/20 23:43:15 |  INFO | Listening for connections at ws://DESKTOP-FERP0L2:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2025/02/20 23:43:15 |  INFO | Connector ws started
+INFO   | jvm 1    | 2025/02/20 23:43:15 |  INFO | Apache ActiveMQ 5.16.3 (localhost, ID:DESKTOP-FERP0L2-8174-1740082395389-0:1) started
+INFO   | jvm 1    | 2025/02/20 23:43:15 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2025/02/20 23:43:15 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\asus\Desktop\JavaSchool1\AcctiveMQ-with-javaCore\src\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb only has 67478 mb of usable space. - resetting to maximum available disk space: 67478 mb
+INFO   | jvm 1    | 2025/02/20 23:43:16 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2025/02/20 23:43:16 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 1    | 2025/02/20 23:43:16 |  WARN | Failed startup of context o.e.j.w.WebAppContext@50543155{ActiveMQ Console,/admin,file:///C:/Users/asus/Desktop/JavaSchool1/AcctiveMQ-with-javaCore/src/apache-activemq-5.16.3/webapps/admin/,UNAVAILABLE}
+INFO   | jvm 1    | 2025/02/20 23:43:16 | java.lang.NoClassDefFoundError: org/apache/activemq/web/filter/ApplicationContextFilter$1
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.createApplicationContextWrapper(ApplicationContextFilter.java:139)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.init(ApplicationContextFilter.java:78)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.servlet.FilterHolder.initialize(FilterHolder.java:140)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:731)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:755)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:910)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.security.SecurityHandler.doStart(SecurityHandler.java:417)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.security.ConstraintSecurityHandler.doStart(ConstraintSecurityHandler.java:417)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.server.Server.start(Server.java:423)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.server.Server.doStart(Server.java:387)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:265)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.springframework.beans.factory.config.MethodInvokingBean.invokeWithTargetException(MethodInvokingBean.java:119)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.springframework.beans.factory.config.MethodInvokingFactoryBean.afterPropertiesSet(MethodInvokingFactoryBean.java:106)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1677)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1615)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:737)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.apache.activemq.console.Main.main(Main.java:115)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at java.base/java.lang.Thread.run(Thread.java:833)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | Caused by: java.lang.ClassNotFoundException: org.apache.activemq.web.filter.ApplicationContextFilter$1
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:587)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:538)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+INFO   | jvm 1    | 2025/02/20 23:43:16 | 	... 77 more
+STATUS | wrapper  | 2025/02/21 00:00:15 | --> Wrapper Started as Console
+STATUS | wrapper  | 2025/02/21 00:00:15 | Launching a JVM...
+INFO   | jvm 1    | 2025/02/21 00:00:15 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2025/02/21 00:00:15 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2025/02/21 00:00:15 | 
+INFO   | jvm 1    | 2025/02/21 00:00:15 | Java Runtime: Oracle Corporation 17.0.4 C:\Program Files\Java\jdk-17.0.4
+INFO   | jvm 1    | 2025/02/21 00:00:15 |   Heap sizes: current=258048k  free=248832k  max=1048576k
+INFO   | jvm 1    | 2025/02/21 00:00:15 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=2II1O_bS41TdZIZI -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=24568 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2025/02/21 00:00:15 | Extensions classpath:
+INFO   | jvm 1    | 2025/02/21 00:00:15 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2025/02/21 00:00:15 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2025/02/21 00:00:15 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2025/02/21 00:00:15 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2025/02/21 00:00:15 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2025/02/21 00:00:15 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2025/02/21 00:00:15 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@3db6d700: startup date [Fri Feb 21 00:00:15 GMT+03:30 2025]; root of context hierarchy
+INFO   | jvm 1    | 2025/02/21 00:00:16 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\asus\Desktop\JavaSchool1\AcctiveMQ-with-javaCore\src\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2025/02/21 00:00:16 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2025/02/21 00:00:16 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2025/02/21 00:00:16 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2025/02/21 00:00:16 |  INFO | PListStore:[C:\Users\asus\Desktop\JavaSchool1\AcctiveMQ-with-javaCore\src\apache-activemq-5.16.3\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2025/02/21 00:00:16 |  INFO | Apache ActiveMQ 5.16.3 (localhost, ID:DESKTOP-FERP0L2-8299-1740083416456-0:1) is starting
+INFO   | jvm 1    | 2025/02/21 00:00:16 |  INFO | Listening for connections at: tcp://DESKTOP-FERP0L2:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2025/02/21 00:00:16 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2025/02/21 00:00:16 |  INFO | Listening for connections at: amqp://DESKTOP-FERP0L2:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2025/02/21 00:00:16 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2025/02/21 00:00:16 |  INFO | Listening for connections at: stomp://DESKTOP-FERP0L2:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2025/02/21 00:00:16 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2025/02/21 00:00:16 |  INFO | Listening for connections at: mqtt://DESKTOP-FERP0L2:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2025/02/21 00:00:16 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2025/02/21 00:00:16 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2025/02/21 00:00:16 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2025/02/21 00:00:16 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@29730436{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2025/02/21 00:00:16 |  INFO | Listening for connections at ws://DESKTOP-FERP0L2:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2025/02/21 00:00:16 |  INFO | Connector ws started
+INFO   | jvm 1    | 2025/02/21 00:00:16 |  INFO | Apache ActiveMQ 5.16.3 (localhost, ID:DESKTOP-FERP0L2-8299-1740083416456-0:1) started
+INFO   | jvm 1    | 2025/02/21 00:00:16 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2025/02/21 00:00:16 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\asus\Desktop\JavaSchool1\AcctiveMQ-with-javaCore\src\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb only has 67468 mb of usable space. - resetting to maximum available disk space: 67468 mb
+INFO   | jvm 1    | 2025/02/21 00:00:17 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2025/02/21 00:00:17 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 1    | 2025/02/21 00:00:17 |  WARN | Failed startup of context o.e.j.w.WebAppContext@11da9b4e{ActiveMQ Console,/admin,file:///C:/Users/asus/Desktop/JavaSchool1/AcctiveMQ-with-javaCore/src/apache-activemq-5.16.3/webapps/admin/,UNAVAILABLE}
+INFO   | jvm 1    | 2025/02/21 00:00:17 | java.lang.NoClassDefFoundError: org/apache/activemq/web/filter/ApplicationContextFilter$1
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.createApplicationContextWrapper(ApplicationContextFilter.java:139)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.init(ApplicationContextFilter.java:78)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.servlet.FilterHolder.initialize(FilterHolder.java:140)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:731)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:755)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:910)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.security.SecurityHandler.doStart(SecurityHandler.java:417)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.security.ConstraintSecurityHandler.doStart(ConstraintSecurityHandler.java:417)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.server.Server.start(Server.java:423)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.server.Server.doStart(Server.java:387)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:265)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.springframework.beans.factory.config.MethodInvokingBean.invokeWithTargetException(MethodInvokingBean.java:119)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.springframework.beans.factory.config.MethodInvokingFactoryBean.afterPropertiesSet(MethodInvokingFactoryBean.java:106)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1677)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1615)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:737)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.apache.activemq.console.Main.main(Main.java:115)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at java.base/java.lang.Thread.run(Thread.java:833)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | Caused by: java.lang.ClassNotFoundException: org.apache.activemq.web.filter.ApplicationContextFilter$1
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:587)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:538)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+INFO   | jvm 1    | 2025/02/21 00:00:17 | 	... 77 more
